@@ -1,23 +1,5 @@
 {
-    "model_architecture": "YOLOv8 Nano + EasyOCR + CLAHE",
-    "optimization": "ONNX Runtime (CPU)",
-    "model_sizes_mb": {
-        "yolov8n_onnx": 12.26,
-        "yolov8n_pt": 6.25,
-        "easyocr_craft": 79.3,
-        "easyocr_recognition": 14.44,
-        "total_footprint": 105.95
-    },
-    "performance_metrics": {
-        "mAP_50": 0.85,
-        "mAP_50_95": 0.65,
-        "ocr_word_accuracy": 0.85,
-        "ocr_character_error_rate": 0.05
-    },
-    "latency_ms_cpu": {
-        "yolov8_inference": 40.5,
-        "easyocr_inference": 450.0,
-        "preprocessing": 20.0,
-        "total_pipeline_latency_per_frame": 626.96
-    }
+  "flops_g": 8.7,
+  "latency_ms": 627,
+  "model_size_mb": 106
 }
